@@ -1,0 +1,98 @@
+body {
+	background-color: #b3e56e;
+	margin: 0;
+	font-family: 'Kalam', cursive;
+}
+
+h1 {
+	text-align: center;
+	line-height: 1;
+	margin: auto;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding-top: 20px;
+    font-size: 70px;
+}
+
+h2 {
+	font-weight: 400;
+	font-size: 50px;
+}
+
+#dicePlace {
+	background-color: #b3e56e;
+	width: 90%;
+    padding-left: 0px;
+    box-sizing: border-box;
+	margin: 10px 5% 10px;
+    background: yellow;
+    position: static;
+}
+
+#rollAgain {
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height = 50px;
+	font-weight: 900;
+	color: ;
+	letter-spacing: 1px;
+	transition: all 0.2;
+	outline: none;
+	align: center;
+}
+
+#rollAgain:hover {
+	color: #b3e56e;
+	background: #281a0e;
+}
+
+.dice {
+    width: 160px;
+    height: 160px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    background: #281a0e;
+    float: left;
+    margin: 20px 3% 20px 3%;
+    color: #b3e56e;
+	border-radius: 15%;
+	font-family: 'Josefin Sans', sans-serif;
+    font-size: 80px;
+}
+
+#selector {
+    background-color
+	margin: 50px 100px;
+	text-align: center;
+	colour: none;
+	margin: auto;
+	width: 100%;
+	font-family: 'Josefin Sans', sans-serif;
+    font-size: 46px;
+}
+
+#top {
+	text-align: center;
+    color: #281a0e;
+	width: 100%;
+	background-color: #739137;
+}
+
+.btn.btn-default {
+    background-color: #75a000;
+    color: #281a0e;
+    border: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+}
+
+.btn.btn-default.active {
+    background-color: #281a0e;
+    color: #75a000;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+}
+
+
+
